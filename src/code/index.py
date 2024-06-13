@@ -88,3 +88,10 @@ def upload_part_object(filename, key, bucket):
     bucket.complete_multipart_upload(key, upload_id, parts, headers=dict())
     return "OK"
 
+<<<<<<< HEAD
+=======
+
+
+if __name__ == '__main__':
+    print("22222222")
+>>>>>>> 21165544a621bacef1b9ff9d931b00ab766537bc
