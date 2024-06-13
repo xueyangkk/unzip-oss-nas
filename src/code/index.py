@@ -87,3 +87,8 @@ def upload_part_object(filename, key, bucket):
             part_number += 1
     bucket.complete_multipart_upload(key, upload_id, parts, headers=dict())
     return "OK"
+
+
+
+if __name__ == '__main__':
+    print("11111111")
