@@ -91,4 +91,4 @@ def upload_part_object(filename, key, bucket):
 
 
 if __name__ == '__main__':
-    print("11111111")
+    print("22222222")
